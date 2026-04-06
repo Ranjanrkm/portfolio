@@ -70,17 +70,12 @@ Plaintext
 ├── .npmrc                  # Deployment configuration bypass
 ├── package.json            # Dependency matrix
 └── tailwind.config.js      # Utility-class framework configuration
-🔗 The Architect
-Ranjan Kumar Mahato Full-Stack AI Engineer & Ecosystem Architect
 
-GitHub: @Ranjanrkm
+## 🔗 The Architect
 
-LinkedIn: ranjan-kumar-mahato
+**Ranjan Kumar Mahato** | *Full-Stack AI Engineer & Ecosystem Architect*
 
-X (Network): @RanjanM83866213
-
-Comms: mahatoranjan5432@gmail.com
-
-<div align="center">
-<sub>© 2026 RANJAN K. MAHATO • SYSTEM_STABLE</sub>
-</div>
+* **GitHub:** [@Ranjanrkm](https://github.com/Ranjanrkm)
+* **LinkedIn:** [ranjan-kumar-mahato](https://www.linkedin.com/in/ranjan-kumar-mahato-90112424b/)
+* **X (Network):** [@RanjanM83866213](https://x.com/RanjanM83866213)
+* **Comms:** [mahatoranjan5432@gmail.com](mailto:mahatoranjan5432@gmail.com)
