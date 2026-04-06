@@ -46,3 +46,41 @@ To run this architecture on your local machine, follow the initialization sequen
 ```bash
 git clone [https://github.com/Ranjanrkm/portfolio-architect.git](https://github.com/Ranjanrkm/portfolio-architect.git)
 cd portfolio-architect
+
+2. Install dependencies
+(Note: Uses legacy-peer-deps to securely resolve React-Three-Fiber core engine versioning)
+
+Bash
+npm install --legacy-peer-deps
+3. Ignite the local server
+
+Bash
+npm run dev
+The system will boot locally at http://localhost:5173/
+
+📁 System Blueprint
+Plaintext
+├── public/                 # Static assets (Holographic Avatars)
+│   ├── pic1.jpeg           
+│   └── pic2.jpg            
+├── src/                    # Core Architecture
+│   ├── App.jsx             # Main OS logic, 3D Canvas, and UI Modules
+│   ├── main.jsx            # React DOM Initialization
+│   └── index.css           # Global styles and custom CRT/Scanline animations
+├── .npmrc                  # Deployment configuration bypass
+├── package.json            # Dependency matrix
+└── tailwind.config.js      # Utility-class framework configuration
+🔗 The Architect
+Ranjan Kumar Mahato Full-Stack AI Engineer & Ecosystem Architect
+
+GitHub: @Ranjanrkm
+
+LinkedIn: ranjan-kumar-mahato
+
+X (Network): @RanjanM83866213
+
+Comms: mahatoranjan5432@gmail.com
+
+<div align="center">
+<sub>© 2026 RANJAN K. MAHATO • SYSTEM_STABLE</sub>
+</div>
