@@ -94,7 +94,7 @@ function App() {
               <span className="text-white font-bold tracking-widest uppercase">Ranjan Kumar Mahato</span>
             </p>
             <p className="text-xs md:text-sm lg:text-lg text-zinc-500 max-w-3xl mx-auto font-light tracking-widest uppercase">
-              Architect of Vyayam AI, AssistIQ & Nexus AI
+              Architect of Nexus AI, Vyayam AI & AssistIQ
             </p>
           </motion.div>
           <div className="absolute bottom-12 animate-bounce text-cyan-500 text-[9px] md:text-[10px] tracking-[0.5em] uppercase font-bold">
@@ -149,7 +149,7 @@ function App() {
               <p className="text-sm md:text-lg lg:text-xl text-zinc-400 leading-relaxed font-light mb-8 md:mb-10 max-w-2xl mx-auto lg:mx-0">
                 I am a Full-Stack AI Engineer specializing in the intersection of high-performance web architecture and generative intelligence. 
                 <br/><br/>
-                Whether orchestrating multiple AI models for <span className="text-cyan-300 font-medium">Vyayam AI</span> or building secure real-time protocols for <span className="text-cyan-300 font-medium">AssistIQ</span>, my focus is always on creating systems that are resilient, scalable, and beautifully designed.
+                Whether building multi-tenant SaaS platforms like <span className="text-cyan-300 font-medium">Nexus AI</span> or orchestrating complex data pipelines for <span className="text-cyan-300 font-medium">Vyayam AI</span>, my focus is always on creating systems that are resilient, highly scalable, and beautifully designed.
               </p>
               
               <div className="flex items-center gap-4 bg-[#0a0a0e] border border-white/10 w-fit px-5 py-2.5 md:px-6 md:py-3 rounded-full backdrop-blur-md shadow-[0_0_30px_rgba(34,211,238,0.1)] mx-auto lg:mx-0">
@@ -209,7 +209,7 @@ function App() {
           </div>
         </section>
 
-        {/* FLAGSHIP ARCHITECTURES */}
+        {/* FLAGSHIP ARCHITECTURES - WITH NEW NEXUS AI DESC */}
         <section className="py-20 md:py-32 px-4 md:px-10 pointer-events-none relative z-10 border-t border-white/5 bg-black/40">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-xs md:text-sm font-bold text-zinc-500 mb-12 md:mb-16 tracking-[0.5em] uppercase text-center">
@@ -217,12 +217,21 @@ function App() {
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {/* UPDATED: Nexus AI */}
+              <ProjectCard 
+                title="Nexus AI"
+                role="Multi-Tenant AI Support SaaS"
+                description="A powerful B2B platform that lets any business instantly train and deploy a custom AI support agent. Features a dynamic context engine (RAG) for perfectly accurate answers and a lightweight embeddable website widget."
+                tech={["React", "Node.js", "Firebase", "Gemini 2.5 Flash"]}
+                delay={0.1}
+                link="https://nexus-ai-eta-gray.vercel.app/"
+              />
               <ProjectCard 
                 title="Vyayam AI"
                 role="Full-Stack AI Workout Generator"
                 description="An advanced fitness web application that crafts tailored workout routines. It utilizes artificial intelligence for reliable failovers and includes a live, secure database architecture."
                 tech={["React", "Node.js", "Firebase", "Generative AI APIs"]}
-                delay={0.1}
+                delay={0.2}
                 link="https://vyayam-ai.onrender.com/#/"
               />
               <ProjectCard 
@@ -230,16 +239,8 @@ function App() {
                 role="AI Virtual Assistant"
                 description="A dynamic, voice-enabled conversational agent. Engineered to process complex queries in real-time while maintaining highly secure session states across devices."
                 tech={["React", "Node.js", "MongoDB", "Gemini API"]}
-                delay={0.2}
-                link="https://virtualassistant-nkmj.onrender.com/signup"
-              />
-              <ProjectCard 
-                title="Nexus AI"
-                role="Next-Gen AI Interface"
-                description="A cutting-edge artificial intelligence platform designed for seamless integration. Engineered with high-performance frameworks to deliver rapid, scalable intelligence."
-                tech={["React", "Tailwind CSS", "AI Integration", "Vercel"]}
                 delay={0.3}
-                link="https://nexus-ai-eta-gray.vercel.app/"
+                link="https://virtualassistant-nkmj.onrender.com/signup"
               />
             </div>
           </div>
@@ -350,14 +351,14 @@ function App() {
           </div>
         </section>
 
-        {/* REDESIGNED CONTACT FOOTER (IMAGE 2 + GREAT LINES) */}
+        {/* REDESIGNED CONTACT FOOTER */}
         <footer className="pt-20 pb-10 md:pb-16 px-4 md:px-10 pointer-events-auto relative bg-[#030305]">
           <div className="max-w-7xl mx-auto">
             <div className="bg-[#0a0a0e] rounded-[2rem] md:rounded-[3rem] p-6 md:p-16 border border-white/10 shadow-[0_0_100px_rgba(0,0,0,1)] relative overflow-hidden">
               
               <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-16 items-center">
                 
-                {/* Left Side: Avatar Profile (Using pic2.jpg) */}
+                {/* Left Side: Avatar Profile */}
                 <div className="col-span-1 lg:col-span-4 flex flex-col items-center text-center mt-4 md:mt-0">
                   <div className="w-40 h-40 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-zinc-800 shadow-[0_0_30px_rgba(79,70,229,0.3)] mb-4 md:mb-6 md:hover:scale-105 md:hover:border-cyan-500 transition-all duration-500">
                     <img src="/pic2.jpg" alt="Ranjan Creator Profile" className="w-full h-full object-cover grayscale-0 md:grayscale md:hover:grayscale-0 transition-all duration-500" />
