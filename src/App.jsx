@@ -177,7 +177,7 @@ function App() {
               <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} className="relative group">
                 <span className="absolute -left-[31px] md:-left-[51px] top-1 md:top-2 w-5 h-5 md:w-6 md:h-6 rounded-full bg-black border-[2px] md:border-[3px] border-cyan-400 shadow-[0_0_15px_#22d3ee] md:group-hover:scale-125 transition-transform"></span>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2 gap-2">
-                  <h4 className="text-xl md:text-3xl font-black text-white tracking-tight">B. P Poddar Institute of Management & Tech</h4>
+                  <h4 className="text-xl md:text-3xl font-black text-white tracking-tight">B. P Poddar Institute of Management & Technology</h4>
                   <span className="text-cyan-400 font-mono text-[10px] md:text-sm tracking-widest bg-cyan-400/10 border border-cyan-400/20 px-3 py-1 md:px-4 md:py-1.5 rounded-full w-fit">2022 - 2026</span>
                 </div>
                 <p className="text-sm md:text-lg text-zinc-400 font-light italic">
