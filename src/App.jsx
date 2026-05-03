@@ -23,7 +23,7 @@ function TechCube() {
   );
 }
 
-// 2. REUSABLE SYSTEM NODE CARD (Mobile Optimized)
+// 2. REUSABLE SYSTEM NODE CARD 
 function ProjectCard({ title, role, description, tech, delay, link }) {
   return (
     <motion.div 
@@ -53,7 +53,7 @@ function ProjectCard({ title, role, description, tech, delay, link }) {
         rel="noopener noreferrer" 
         className="text-xs md:text-sm font-bold text-white uppercase tracking-widest group-hover:text-cyan-400 transition-colors flex items-center gap-3 w-fit z-10 active:text-cyan-500"
       >
-        Access Node <span className="translate-x-1 md:translate-x-0 md:group-hover:translate-x-2 transition-transform bg-white/10 p-1.5 md:p-2 rounded-full">→</span >
+        View Project <span className="translate-x-1 md:translate-x-0 md:group-hover:translate-x-2 transition-transform bg-white/10 p-1.5 md:p-2 rounded-full">→</span >
       </a>
     </motion.div>
   );
@@ -78,7 +78,7 @@ function App() {
       {/* FOREGROUND OS */}
       <div className="relative z-10 w-full">
         
-        {/* BOOT SEQUENCE (HERO) */}
+        {/* BOOT SEQUENCE (HERO - CLEAR AND UNDERSTANDABLE) */}
         <section className="h-[100svh] flex flex-col items-center justify-center pointer-events-none px-4 relative">
           <motion.div 
             initial={{ opacity: 0, scale: 0.9 }}
@@ -86,15 +86,15 @@ function App() {
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="text-center relative z-10"
           >
-            <h1 className="text-5xl md:text-7xl lg:text-[9rem] font-black mb-4 tracking-tighter text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.2)]">
-              BUILDING <br className="md:hidden" />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-cyan-400 to-indigo-500 animate-gradient bg-[length:200%_auto]">ECOSYSTEMS</span>
+            <h1 className="text-5xl md:text-7xl lg:text-[7rem] font-black mb-4 tracking-tighter text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.2)] leading-tight md:leading-none">
+              FULL-STACK <br className="md:hidden" />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-cyan-400 to-indigo-500 animate-gradient bg-[length:200%_auto]">SOFTWARE ENGINEER</span>
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-zinc-400 max-w-4xl mx-auto font-light tracking-wide mb-2">
+            <p className="text-lg md:text-xl lg:text-2xl text-zinc-400 max-w-4xl mx-auto font-light tracking-wide mb-3">
               <span className="text-white font-bold tracking-widest uppercase">Ranjan Kumar Mahato</span>
             </p>
             <p className="text-xs md:text-sm lg:text-lg text-zinc-500 max-w-3xl mx-auto font-light tracking-widest uppercase">
-              Architect of Nexus AI, Vyayam AI & AssistIQ
+              Web Developer • React Developer • Node.js Specialist • AI Engineer
             </p>
           </motion.div>
           <div className="absolute bottom-12 animate-bounce text-cyan-500 text-[9px] md:text-[10px] tracking-[0.5em] uppercase font-bold">
@@ -102,7 +102,7 @@ function App() {
           </div>
         </section>
 
-        {/* THE ARCHITECT (IMAGE 1 + ID BADGE) */}
+        {/* THE ENGINEER (IMAGE 1 + CLEAR BIO USING ALL YOUR KEYWORDS) */}
         <section className="min-h-screen flex items-center px-4 md:px-10 py-20 md:py-32 pointer-events-auto border-t border-white/5 bg-gradient-to-b from-transparent to-black/50">
           <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-center">
             
@@ -130,7 +130,7 @@ function App() {
                   {/* Name Tag below picture */}
                   <div className="mt-4 md:mt-6 text-center pb-2">
                     <h3 className="text-lg md:text-2xl font-black text-white tracking-widest">RANJAN K. MAHATO</h3>
-                    <p className="text-cyan-400 text-[10px] md:text-xs font-bold tracking-[0.3em] mt-1">LEAD AI ARCHITECT</p>
+                    <p className="text-cyan-400 text-[10px] md:text-xs font-bold tracking-[0.3em] mt-1">LEAD SOFTWARE DEVELOPER</p>
                   </div>
                 </motion.div>
               </div>
@@ -144,12 +144,12 @@ function App() {
               className="text-center lg:text-left"
             >
               <h2 className="text-4xl md:text-5xl lg:text-7xl font-black text-white mb-4 md:mb-6 tracking-tighter">
-                The <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]">Architect</span>
+                The <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]">Engineer</span>
               </h2>
               <p className="text-sm md:text-lg lg:text-xl text-zinc-400 leading-relaxed font-light mb-8 md:mb-10 max-w-2xl mx-auto lg:mx-0">
-                I am a Full-Stack AI Engineer specializing in the intersection of high-performance web architecture and generative intelligence. 
+                I am a passionate <strong className="text-white font-medium">Software Engineer</strong> and <strong className="text-white font-medium">JavaScript Developer</strong> who builds powerful, user-friendly web applications from start to finish.
                 <br/><br/>
-                Whether building multi-tenant SaaS platforms like <span className="text-cyan-300 font-medium">Nexus AI</span> or orchestrating complex data pipelines for <span className="text-cyan-300 font-medium">Vyayam AI</span>, my focus is always on creating systems that are resilient, highly scalable, and beautifully designed.
+                As a <strong className="text-cyan-300 font-medium">Frontend Developer</strong> (React) and a <strong className="text-cyan-300 font-medium">Backend Developer</strong> (Node.js), I handle everything from designing beautiful user interfaces to managing complex databases. Whether creating the automated SaaS platform Nexus AI or integrating intelligent APIs, my goal is to write clean, scalable code that makes a real impact.
               </p>
               
               <div className="flex items-center gap-4 bg-[#0a0a0e] border border-white/10 w-fit px-5 py-2.5 md:px-6 md:py-3 rounded-full backdrop-blur-md shadow-[0_0_30px_rgba(34,211,238,0.1)] mx-auto lg:mx-0">
@@ -209,35 +209,35 @@ function App() {
           </div>
         </section>
 
-        {/* FLAGSHIP ARCHITECTURES - WITH NEW NEXUS AI DESC */}
+        {/* PROJECTS SECTION */}
         <section className="py-20 md:py-32 px-4 md:px-10 pointer-events-none relative z-10 border-t border-white/5 bg-black/40">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-xs md:text-sm font-bold text-zinc-500 mb-12 md:mb-16 tracking-[0.5em] uppercase text-center">
-              Active Deployments
+              Web Development Projects
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               <ProjectCard 
                 title="Nexus AI"
-                role="Multi-Tenant AI Support SaaS"
-                description="A powerful B2B platform that lets any business instantly train and deploy a custom AI support agent. Features a dynamic context engine (RAG) for perfectly accurate answers and a lightweight embeddable website widget."
-                tech={["React", "Node.js", "Firebase", "Gemini 2.5 Flash"]}
+                role="Full-Stack SaaS Platform"
+                description="A powerful web application that lets businesses easily create their own AI support chatbot. Built with an intuitive dashboard and an embeddable website widget."
+                tech={["React", "Node.js", "Firebase", "Gemini AI"]}
                 delay={0.1}
                 link="https://nexus-ai-eta-gray.vercel.app/"
               />
               <ProjectCard 
                 title="Vyayam AI"
-                role="Full-Stack AI Workout Generator"
-                description="An advanced fitness web application that crafts tailored workout routines. It utilizes artificial intelligence for reliable failovers and includes a live, secure database architecture."
-                tech={["React", "Node.js", "Firebase", "Generative AI APIs"]}
+                role="Frontend & Backend Project"
+                description="A smart fitness website that generates custom workout plans. Features a beautiful user interface and a highly secure database for user information."
+                tech={["React", "Node.js", "Firebase", "API Integration"]}
                 delay={0.2}
                 link="https://vyayam-ai.onrender.com/#/"
               />
               <ProjectCard 
                 title="AssistIQ"
-                role="AI Virtual Assistant"
-                description="A dynamic, voice-enabled conversational agent. Engineered to process complex queries in real-time while maintaining highly secure session states across devices."
-                tech={["React", "Node.js", "MongoDB", "Gemini API"]}
+                role="Web Application"
+                description="A dynamic, voice-enabled virtual assistant built for the web. Designed to answer complex questions quickly while working perfectly on mobile and desktop."
+                tech={["React", "Node.js", "MongoDB", "AI Engine"]}
                 delay={0.3}
                 link="https://virtualassistant-nkmj.onrender.com/signup"
               />
@@ -245,7 +245,7 @@ function App() {
           </div>
         </section>
 
-        {/* THE COMMAND CENTER (ORACLE & 500+) */}
+        {/* CERTIFICATIONS */}
         <section className="py-20 md:py-32 px-4 md:px-10 pointer-events-auto border-t border-white/5">
           <div className="max-w-7xl mx-auto">
             
@@ -260,7 +260,7 @@ function App() {
                   Oracle Certified <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-500">Generative AI Professional</span>
                 </div>
                 <p className="text-sm md:text-lg text-zinc-400 max-w-xl mb-8 md:mb-10 z-10 font-light">
-                  Officially credentialed in architecting and optimizing highly scalable AI models within enterprise cloud infrastructures.
+                  Officially certified in understanding and implementing AI models for enterprise businesses.
                 </p>
                 <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=6F4BF136CF5A182246F12427F6B4E6D88D12DEB4AF271307792778EBC6AE3A63" target="_blank" rel="noreferrer" className="z-10 flex items-center gap-2 md:gap-3 text-xs md:text-sm font-black tracking-widest text-black bg-cyan-400 px-6 py-4 md:px-10 md:py-5 rounded-full shadow-[0_0_30px_rgba(34,211,238,0.5)] md:hover:shadow-[0_0_50px_rgba(34,211,238,1)] hover:bg-white transition-all transform md:hover:-translate-y-1 active:scale-95">
                   VERIFY CREDENTIAL ↗
@@ -273,7 +273,7 @@ function App() {
                 <div className="text-6xl md:text-7xl font-black text-white mb-2 tracking-tighter drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
                   500<span className="text-indigo-500">+</span>
                 </div>
-                <h3 className="text-lg md:text-xl font-bold text-zinc-300 mb-6 md:mb-8">Algorithmic Solutions</h3>
+                <h3 className="text-lg md:text-xl font-bold text-zinc-300 mb-6 md:mb-8">Coding Problems Solved</h3>
                 
                 <div className="grid grid-cols-3 gap-3 md:gap-4 w-full">
                   <a href="https://leetcode.com/u/Ranjan_Solver/" target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center py-3 md:py-4 bg-black border border-zinc-800 rounded-2xl md:hover:border-cyan-400 md:hover:shadow-[0_0_20px_rgba(34,211,238,0.3)] transition-all group/btn active:scale-95">
@@ -294,11 +294,11 @@ function App() {
           </div>
         </section>
 
-        {/* SYSTEM ARCHITECTURE (TECHNICAL SKILLS) */}
+        {/* SKILLS SECTION */}
         <section className="py-20 md:py-24 px-4 md:px-10 pointer-events-auto border-t border-white/5 relative z-10 bg-black">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-xs md:text-sm font-bold text-cyan-500 mb-10 md:mb-12 tracking-[0.5em] uppercase text-center">
-              System Architecture & Skills
+              Software Development Skills
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
@@ -351,14 +351,12 @@ function App() {
         </section>
 
         {/* =========================================
-            NEXT-LEVEL FOOTER 2.0
+            NEXT-LEVEL FOOTER (CLEAR USER-FRIENDLY QUOTE)
             ========================================= */}
         <footer className="pt-24 pb-12 md:pb-20 px-4 md:px-10 pointer-events-auto relative z-10 bg-[#020203]">
           <div className="max-w-7xl mx-auto">
-            {/* Main Container with Ambient Glow */}
             <div className="bg-[#07070a] rounded-[2rem] md:rounded-[3rem] p-8 md:p-16 border border-white/5 shadow-[0_0_80px_rgba(0,0,0,0.8)] relative overflow-hidden group">
               
-              {/* Ambient Background Blur Elements */}
               <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none md:group-hover:bg-cyan-500/20 transition-colors duration-700"></div>
               <div className="absolute bottom-0 left-0 w-96 h-96 bg-indigo-500/10 rounded-full blur-[120px] pointer-events-none md:group-hover:bg-indigo-500/20 transition-colors duration-700"></div>
 
@@ -367,7 +365,6 @@ function App() {
                 {/* Left Side: Cyber-Ring Avatar */}
                 <div className="col-span-1 lg:col-span-5 flex flex-col items-center text-center">
                   
-                  {/* Rotating Orbital Rings around Profile Pic */}
                   <div className="relative w-48 h-48 md:w-64 md:h-64 mb-8 flex items-center justify-center">
                     <div className="absolute inset-0 rounded-full border-[2px] border-dashed border-cyan-500/30 animate-[spin_20s_linear_infinite]"></div>
                     <div className="absolute inset-2 rounded-full border border-indigo-500/40 animate-[spin_15s_linear_infinite_reverse]"></div>
@@ -380,7 +377,7 @@ function App() {
                   <h3 className="text-2xl md:text-3xl font-black text-white tracking-widest uppercase drop-shadow-lg">Ranjan K. Mahato</h3>
                   <div className="flex items-center gap-3 mt-3 justify-center bg-black/50 px-4 py-2 rounded-full border border-white/10">
                     <div className="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse shadow-[0_0_10px_rgba(74,222,128,0.8)]"></div>
-                    <span className="text-[10px] md:text-xs text-green-400 font-mono font-bold tracking-wider">Available for Deployment</span>
+                    <span className="text-[10px] md:text-xs text-green-400 font-mono font-bold tracking-wider">Available to Work</span>
                   </div>
                 </div>
 
@@ -390,10 +387,10 @@ function App() {
                     Initiate <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-500 animate-pulse">Connection</span>
                   </h2>
                   
-                  {/* The "Great Lines" */}
+                  {/* The "User-Friendly" Line */}
                   <div className="border-l-4 border-cyan-500/50 pl-6 mb-10 mx-auto lg:mx-0 max-w-2xl text-center lg:text-left">
                     <p className="text-lg md:text-xl lg:text-2xl text-zinc-300 font-light italic leading-relaxed">
-                      "Building ecosystems isn't just about writing code; it's about bridging the gap between human intuition and machine precision. Let's architect the future."
+                      "The best software is powerful on the inside and simple on the outside. Let's engineer a web experience that users love and businesses trust."
                     </p>
                   </div>
 
@@ -424,14 +421,13 @@ function App() {
                   <div className="w-full">
                     <a href="mailto:mahatoranjan5432@gmail.com" className="group/btn relative inline-flex w-full md:w-auto items-center justify-center px-8 py-5 bg-gradient-to-r from-cyan-500 to-indigo-600 rounded-2xl overflow-hidden font-black tracking-[0.2em] text-white shadow-[0_0_40px_rgba(34,211,238,0.4)] hover:shadow-[0_0_60px_rgba(99,102,241,0.6)] hover:scale-[1.02] transition-all active:scale-95 text-xs md:text-sm">
                       <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.2)_50%,transparent_75%)] bg-[length:250%_250%,100%_100%] animate-[gradient_2s_linear_infinite]"></div>
-                      <span className="relative z-10">INITIATE SECURE COMMS</span>
+                      <span className="relative z-10">SEND ME AN EMAIL</span>
                     </a>
                   </div>
                   
                 </div>
               </div>
               
-              {/* Copyright Bar inside the card */}
               <div className="relative z-10 flex flex-col md:flex-row justify-between items-center mt-12 md:mt-16 pt-8 border-t border-white/10 text-center md:text-left gap-4 md:gap-0">
                 <p className="text-zinc-500 font-mono text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-cyan-500"></span> Base: Kolkata, West Bengal
